@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.example.datastore";
+option java_multiple_files = true;
+
+message DailyHabit {
+  string title = 1;
+  string description = 2;
+  string createdAt = 3;
+  string updatedAt = 4;
+  bool isDone = 5;
+}
