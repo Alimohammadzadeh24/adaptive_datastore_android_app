@@ -49,7 +49,7 @@ class DailyHabitLocalDataSourceImpl @Inject constructor(
         }
     }
 
-    override suspend fun doneDailyHabit(habit: DailyHabit) {
+    override suspend fun toggleHabitDoneStatus(habit: DailyHabit) {
         dataStore.updateData { list: DailyHabitsList ->
             list.copy(
                 habits = list.habits.map {

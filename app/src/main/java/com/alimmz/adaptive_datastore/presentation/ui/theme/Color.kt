@@ -1,4 +1,4 @@
-package com.alimmz.adaptive_datastore.presentation.theme
+package com.alimmz.adaptive_datastore.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

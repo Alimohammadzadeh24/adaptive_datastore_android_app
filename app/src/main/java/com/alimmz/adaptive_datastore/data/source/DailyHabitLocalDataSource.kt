@@ -10,5 +10,5 @@ interface DailyHabitLocalDataSource {
     suspend fun updateDailyHabit(habit: DailyHabit)
     suspend fun deleteDailyHabit(habit: DailyHabit)
     suspend fun clearDailyHabits()
-    suspend fun doneDailyHabit(habit: DailyHabit)
+    suspend fun toggleHabitDoneStatus(habit: DailyHabit)
 }
