@@ -27,8 +27,8 @@ fun HomeScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    Text("All Habits")
-                },
+                Text("All Habits")
+        },
             )
         },
         bottomBar = {

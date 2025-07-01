@@ -11,6 +11,6 @@ class ToggleHabitDoneStatusUseCase @Inject constructor(
     private val repository: DailyHabitRepository,
 ) {
     operator fun invoke(habit: DailyHabit): Flow<DataResult<Unit>> = getDataResult {
-        repository.doneDailyHabit(habit = habit)
+        repository.toggleHabitDoneStatus(habit = habit)
     }
 }
