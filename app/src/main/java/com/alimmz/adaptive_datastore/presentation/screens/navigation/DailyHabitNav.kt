@@ -8,6 +8,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.navigation3.runtime.NavEntry
 import androidx.navigation3.ui.NavDisplay
+import com.alimmz.adaptive_datastore.presentation.screens.home.HomeScreen
 
 @Composable
 fun DailyHabitNav(){
@@ -20,11 +21,7 @@ fun DailyHabitNav(){
         entryProvider = { key ->
             when (key) {
                 is Screens.Home -> NavEntry(key) {
-                    Box(
-                        contentAlignment = Alignment.Center
-                    ) {
-                        Text("Home Screen")
-                    }
+                    HomeScreen {  }
                 }
 
                 Screens.AddHabit -> NavEntry(key) {
