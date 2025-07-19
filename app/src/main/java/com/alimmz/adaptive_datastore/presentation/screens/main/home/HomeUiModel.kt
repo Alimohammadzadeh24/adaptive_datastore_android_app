@@ -1,4 +1,4 @@
-package com.alimmz.adaptive_datastore.presentation.screens.home
+package com.alimmz.adaptive_datastore.presentation.screens.main.home
 
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import com.alimmz.adaptive_datastore.domain.entities.DailyHabit
